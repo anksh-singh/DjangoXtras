@@ -19,7 +19,7 @@ from cookies_app.views import del_cookie, get_cookie, set_cookie, get_cookie, de
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('setc/', set_cookie),
-    # path('getc/', get_cookie),
-    # path('delc/', del_cookie)
+    path('setc/', set_cookie),
+    path('getc/', get_cookie),
+    path('delc/', del_cookie)
 ]
