@@ -15,7 +15,7 @@ def get_cookie(request):
     return render(request, 'cookies_app/getcookie.html', {'name' : name})
 
 
-def del_cookie(request):
-    response = render(request, 'cookies_app/delcookie.html')
-    response.delete_cookie('name')
-    return response
+# def del_cookie(request):
+#     response = render(request, 'cookies_app/delcookie.html')
+#     response.delete_cookie('name')
+#     return response
