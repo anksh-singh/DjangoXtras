@@ -8,11 +8,11 @@ def set_cookie(request):
     return response
 
 
-# def get_cookie(request):
-#     # name = request.COOKIES['name']
-#     name = request.COOKIES.get("name")
+def get_cookie(request):
+    # name = request.COOKIES['name']
+    name = request.COOKIES.get("name")
 
-#     return render(request, 'cookies_app/getcookie.html', {'name' : name})
+    return render(request, 'cookies_app/getcookie.html', {'name' : name})
 
 
 def del_cookie(request):
