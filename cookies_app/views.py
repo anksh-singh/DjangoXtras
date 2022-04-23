@@ -1,11 +1,11 @@
 from django.shortcuts import render
 import random, json
 
-# Create your views here.
-# def set_cookie(request):
-#     response = render(request, 'cookies_app/setcookie.html')
-#     response.set_cookie('name','Anksh', max_age=60*60*24*2)
-#     return response
+Create your views here.
+def set_cookie(request):
+    response = render(request, 'cookies_app/setcookie.html')
+    response.set_cookie('name','Anksh', max_age=60*60*24*2)
+    return response
 
 
 def get_cookie(request):
